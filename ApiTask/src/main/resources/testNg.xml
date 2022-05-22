@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite-param" verbose="1">
+    <test name="MyTests">
+        <classes>
+            <class name="RestTest">
+                <methods>
+                    <include name="getAllPosts"/>
+                    <include name="getPreLastPost"/>
+                    <include name="getNonexistentPost"/>
+                    <include name="sendPost"/>
+                    <include name="getAllUsers"/>
+                    <include name="getFiveUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
