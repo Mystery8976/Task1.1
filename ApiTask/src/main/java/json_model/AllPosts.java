@@ -1,4 +1,4 @@
-package jason_model;
+package json_model;
 
 import lombok.Data;
 

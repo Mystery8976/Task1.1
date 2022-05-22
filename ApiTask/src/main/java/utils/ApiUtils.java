@@ -6,7 +6,7 @@ import java.nio.file.Path;
 
 public class ApiUtils {
     public static String getJson() {
-        Path fileName = Path.of("five.json");
+        Path fileName = Path.of("D:\\DenisTasks\\Task1.1\\ApiTask\\src\\main\\resources\\five.json");
         String actual = null;
         try {
             actual = Files.readString(fileName);
